@@ -1,5 +1,9 @@
 # Changelog
 
+## [1.1.0](https://github.com/carlosbrunoe/release-me/tree/1.1.0) (2023-01-19)
+
+[Full Changelog](https://github.com/carlosbrunoe/release-me/compare/1.0.0...1.1.0)
+
 ## [1.0.0](https://github.com/carlosbrunoe/release-me/tree/1.0.0) (2023-01-19)
 
 [Full Changelog](https://github.com/carlosbrunoe/release-me/compare/69f4d5c41c76db6544c136a5ff43e50ca7fa14b0...1.0.0)
