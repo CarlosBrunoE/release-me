@@ -1,0 +1,31 @@
+name: Generate Changelog
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout Code
+      uses: actions/checkout@v2
+
+    - name: Install Dependencies
+      run: |
+        apt-get update
+        apt-get install -y jq
+        npm install -g conventional-changelog-cli
+
+    - name: Generate Changelog
+      run: |
+        git log --pretty=format:'%s' > commit_messages.txt
+        conventional-changelog -i commit_messages.txt -p angular -o CHANGELOG.md
+
+    - name: Commit Changelog
+      uses: stefanzweifel/git-auto-commit-action@v4
+      with:
+        commit_message: "chore(changelog): update changelog"
+        file_pattern: "CHANGELOG.md"
