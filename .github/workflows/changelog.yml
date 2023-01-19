@@ -12,7 +12,8 @@ jobs:
     steps:
     - name: Checkout Code
       uses: actions/checkout@v2
-
+      with:
+        ref: ${{ github.head_ref }}
     - name: Install Dependencies
       run: |
         npm install -g conventional-changelog-cli
