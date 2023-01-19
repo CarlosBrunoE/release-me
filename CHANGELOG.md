@@ -1,10 +1,10 @@
 #  (2023-01-19)
 
 
-### Features
+### Bug Fixes
 
-* more space for workflows ([fe2852e](https://github.com/CarlosBrunoE/release-me/commit/fe2852e693b291863e1e8a72a706be32cd9c7c82))
+* awesome and heroic fix ([c934e1f](https://github.com/CarlosBrunoE/release-me/commit/c934e1ff3a55dc30d1a76c54ce07e1910ad05b20))
 
 
 
-feat: more space for workflows
+fix: awesome and heroic fix
