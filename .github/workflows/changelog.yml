@@ -28,3 +28,4 @@ jobs:
       with:
         commit_message: "chore(changelog): update changelog"
         file_pattern: "CHANGELOG.md"
+
