@@ -1,5 +1,24 @@
 # Changelog
 
+## [1.2.0](https://github.com/CarlosBrunoE/release-me/compare/v1.1.0...v1.2.0) (2023-12-16)
+
+
+### Features
+
+* awesome hello  wordl ([e363fcb](https://github.com/CarlosBrunoE/release-me/commit/e363fcb7ff2ea8d2d7a346b6c47372eb898bebca))
+* more space for workflows ([fe2852e](https://github.com/CarlosBrunoE/release-me/commit/fe2852e693b291863e1e8a72a706be32cd9c7c82))
+* new beautiful feature ([62e3e6a](https://github.com/CarlosBrunoE/release-me/commit/62e3e6a5155e8f04677551da9e22214de487cc07))
+* new cool feat ([89f84a6](https://github.com/CarlosBrunoE/release-me/commit/89f84a6bd34e97f9c3e3ed8b0fb1816490d6ca43))
+* new feat ([b7719cd](https://github.com/CarlosBrunoE/release-me/commit/b7719cdb03626dcd7459de2062615468ceec3ecb))
+* nuevo feat chido ([5e6a2d6](https://github.com/CarlosBrunoE/release-me/commit/5e6a2d6adb9610dcae65743b8403fc556ec0252e))
+
+
+### Bug Fixes
+
+* awesome and heroic fix ([c934e1f](https://github.com/CarlosBrunoE/release-me/commit/c934e1ff3a55dc30d1a76c54ce07e1910ad05b20))
+* checkout code with branck ([a72068e](https://github.com/CarlosBrunoE/release-me/commit/a72068e4272a67cf8b58f4473dc99b2cbd222da0))
+* not update base image ([a821854](https://github.com/CarlosBrunoE/release-me/commit/a82185499ee93a4904fa775c8623e8592e04a857))
+
 ## [1.1.0](https://github.com/carlosbrunoe/release-me/tree/1.1.0) (2023-01-19)
 
 [Full Changelog](https://github.com/carlosbrunoe/release-me/compare/1.0.0...1.1.0)
