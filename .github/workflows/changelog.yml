@@ -1,33 +1,24 @@
-name: Generate Changelog
-
 on:
   push:
     branches:
       - main
 
+permissions:
+  contents: write
+  pull-requests: write
+
+name: release-please
 
 jobs:
-  build:
+  release-please:
     runs-on: ubuntu-latest
-
     steps:
-    - name: Checkout Code
-      uses: actions/checkout@v2
-      with:
-        ref: ${{ github.head_ref }}
-    - name: Install Dependencies
-      run: |
-        npm install -g conventional-changelog-cli
-
-    - name: Generate Changelog
-      run: |
-        git log --pretty=format:'%s' > commit_messages.txt
-        conventional-changelog -i commit_messages.txt -p angular -o CHANGELOG.md -s -r 0
-
-    - name: Commit Changelog
-      uses: stefanzweifel/git-auto-commit-action@v4
-      with:
-        commit_message: "chore(changelog): update changelog"
-        file_pattern: "CHANGELOG.md"
-
-
+      - uses: google-github-actions/release-please-action@v4
+        with:
+          # this assumes that you have created a personal access token
+          # (PAT) and configured it as a GitHub action secret named
+          # `MY_RELEASE_PLEASE_TOKEN` (this secret name is not important).
+          token: ${{ secrets.MY_RELEASE_PLEASE_TOKEN }}
+          # this is a built-in strategy in release-please, see "Action Inputs"
+          # for more options
+          release-type: simple
