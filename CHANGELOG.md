@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.3.0](https://github.com/CarlosBrunoE/release-me/compare/v1.2.0...v1.3.0) (2023-12-16)
+
+
+### Features
+
+* **module:** new module ([b27b886](https://github.com/CarlosBrunoE/release-me/commit/b27b8864c3c5d30a51ccd01e04413ebf31dc21b1))
+* nice features ([b1b3acd](https://github.com/CarlosBrunoE/release-me/commit/b1b3acdf237168928bca07e5ca4bc61c0a9a5e6f))
+
 ## [1.2.0](https://github.com/CarlosBrunoE/release-me/compare/v1.1.0...v1.2.0) (2023-12-16)
 
 
