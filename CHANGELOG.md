@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.5.0](https://github.com/CarlosBrunoE/release-me/compare/v1.4.0...v1.5.0) (2024-01-03)
+
+
+### Features
+
+* new message from feature branch against develop ([2a03f03](https://github.com/CarlosBrunoE/release-me/commit/2a03f030482c8d09a0ea541dbf74e1d9a2989333))
+
+
+### Bug Fixes
+
+* new message ([b98a1b4](https://github.com/CarlosBrunoE/release-me/commit/b98a1b4bfaa28beaa165e66fe51ce887149b4e48))
+
 ## [1.4.0](https://github.com/CarlosBrunoE/release-me/compare/v1.3.0...v1.4.0) (2024-01-03)
 
 
