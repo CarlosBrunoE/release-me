@@ -1,5 +1,18 @@
 # Changelog
 
+## [1.4.0](https://github.com/CarlosBrunoE/release-me/compare/v1.3.0...v1.4.0) (2024-01-03)
+
+
+### Features
+
+* new feature after skipping pr of gh ([1c2f5c9](https://github.com/CarlosBrunoE/release-me/commit/1c2f5c9e8bce354ce480ff9411263d9e2196c072))
+* skip pr ([a5953a4](https://github.com/CarlosBrunoE/release-me/commit/a5953a400b1dd5af6347aece7828350a2ddc2861))
+
+
+### Bug Fixes
+
+* releaser ([5c0e573](https://github.com/CarlosBrunoE/release-me/commit/5c0e573c6cc14be53ca959ed109cb914c9efbcb2))
+
 ## [1.3.0](https://github.com/CarlosBrunoE/release-me/compare/v1.2.0...v1.3.0) (2023-12-16)
 
 
